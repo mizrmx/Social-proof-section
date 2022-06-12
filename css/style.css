@@ -233,6 +233,11 @@ body
     {
         width: 100%;
     }
+
+    .box-info:last-of-type
+    {
+        margin: 1.5rem 0 0;
+    }
 }
 
 @media (max-width: 33.5em)
@@ -270,11 +275,43 @@ body
         padding: 0;
         padding-bottom: 0.5rem;
     }
+
+    .box-info:last-of-type
+    {
+        margin: 1rem 0 0;
+    }
+
+    .purple-box
+    {
+        padding: 1.5rem 2rem 2rem;
+    }
 }
 
+@media (max-width:78.5rem)
+{
+    .purple-box
+    {
+        max-height: 17rem;
+        padding: 2rem 1.5rem 2rem;
+    }
+}
 
+@media (max-width: 62.5rem)
+{
+    .box-info:last-of-type
+    {
+        flex-direction: column;
+        align-items: center;
+        min-height: none;
+    }
 
-
+    .purple-box
+    {
+        max-width: none;
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
 
 
 
