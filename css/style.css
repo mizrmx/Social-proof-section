@@ -42,21 +42,152 @@ body
     justify-content: space-between;
 }
 
-
-
-
-
-
-
-
-
-/* .attribution 
+@media (max-width: 56em) 
 {
-    font-size: 11px;
-    text-align: center;
+    .container
+    {
+        padding: 8.2rem 2rem 0;
+    }
 }
 
-.attribution a 
+@media (max-width:33.5em) 
 {
-    color: hsl(228, 45%, 44%);
-} */
+    .container
+    {
+        padding-top: 5.3rem;
+        padding: 5.2rem 1.5rem 0;
+    }
+
+    body
+    {
+        background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: left 0 top 0, right 0 bottom 0;
+    }
+}
+
+.split:first-of-type
+{
+    max-width: 28rem;
+}
+
+.split h1
+{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--very-dark-magenta);
+    line-height: 3rem;
+    letter-spacing: -0.1rem;
+}
+
+.split p 
+{
+    color: var(--dark-grayish-magenta);
+    font-weight: 400;
+    line-height: 1.58rem;
+    padding-top: 0.8rem;
+    
+}
+
+.split:last-of-type
+{
+    flex-basis: 33.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.review 
+{
+    width: 82%;
+    border-radius: 0.5rem;
+    background-color: var(--light-grayish-magenta);
+    display: flex;
+    padding: 1.1rem 1.9rem;
+}
+
+.review:nth-of-type(2)
+{
+    align-self: center;
+}
+
+.review:last-of-type
+{
+    align-self: flex-end;
+}
+
+.review h2
+{
+    font-size: 0.83rem;
+    font-weight: 700;
+    color: var(--very-dark-magenta);
+    align-items: center;
+}
+
+.stars
+{
+    padding-right: 1.75rem;
+}
+
+.stars img 
+{
+    padding-right: 0.25rem;
+}
+
+@media (max-width: 80.5em) 
+{
+    .box-info .split .review 
+    {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 66em) 
+{
+    .box-info:first-of-type
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-info:first-of-type h1, .box-info:first-of-type p
+    {
+        text-align: center;
+    }
+
+    .box-info .split:last-of-type
+    {
+        margin-top: 2rem;
+        width: 100%;
+        flex-basis: 13rem;
+    }
+
+    .box-info .split:last-of-type .review
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 66em)
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
