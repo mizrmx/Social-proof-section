@@ -170,19 +170,107 @@ body
     }
 }
 
-@media (max-width: 66em)
+@media (max-width: 33.5em)
 {
+    .split h1 
+    {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
 
+    .split p 
+    {
+        font-size: 1rem;
+        padding-top: 1.5rem;
+    }
+
+    .review
+    {
+        padding: 1rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .stars img 
+    {
+        padding-right: 0.2rem;
+    }
+
+    .stars img:last-of-type
+    {
+        padding-right: 0;
+    }
+
+    .stars
+    {
+        padding: 0;
+        padding-bottom: 0.5rem;
+    }
 }
 
+.box-info:last-of-type
+{
+    margin-top: 4.35rem;
+    min-height: 16.6425rem;
+}
 
+.purple-box
+{
+    background-color: var(--very-dark-magenta);
+    padding: 2.5rem 2rem 2.4rem;
+    border-radius: 0.5rem;
+    max-width: 21.97rem;
+    max-height: 14.6975rem;
+}
 
+.purple-box:nth-of-type(2)
+{
+    align-self: center;
+    margin: 0 1rem;
+}
 
+.purple-box:last-of-type
+{
+    align-self: flex-end;
+}
 
+.customer
+{
+    display: flex;
+}
 
+.customer img 
+{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
 
+.customer-info 
+{
+    padding-left: 1.45rem;
+}
 
+.customer-info h3 
+{
+    color: var(--light-grayish-magenta);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.3rem 0;
+}
 
+.customer-info p
+{
+    color: var(--soft-pink);
+    font-size: 0.8rem;
+}
+
+.purple-box > p 
+{
+    color: var(--light-grayish-magenta);
+    margin-top: 1.7rem;
+    font-size: 0.795rem;
+    line-height: 1.4rem;
+}
 
 
 
